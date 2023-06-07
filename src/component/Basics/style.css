@@ -164,7 +164,7 @@
     text-align: center;
   }
   
-  .navbar h1 {
+  .navbar {
     padding-bottom: 20px;
     text-transform: capitalize;
   }
@@ -183,7 +183,7 @@
     margin: 0;
     font-size: 17px;
     box-shadow: inset 0px 0px 0px -15px rebeccapurple;
-    transition: all 300ms ease-out;
+    transition: all 250ms ease-out;
     text-transform: capitalize;
   }
   .btn-group__item:last-child {
@@ -212,7 +212,4 @@
     opacity: 0;
     transition: all 200ms ease-out;
   }
-  .btn-group__item--active:after {
-    opacity: 1;
-    transform: translatey(-2px);
-  }
+ 

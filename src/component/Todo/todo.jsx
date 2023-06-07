@@ -39,7 +39,6 @@ const Todo = () => {
         name: inputData,
       };
       setItems([...items, myNewInputData]);
-      console.log(setItems);
       setInputData("");
     }
   };
